@@ -1,0 +1,533 @@
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left:20%;
+}
+
+
+nav {
+
+    display: grid;
+    grid-template-columns: 400px 317px;
+    grid-gap: 250px;
+}
+nav ul {
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: 100px 42px 43px 68px 55px;
+
+    
+
+}
+nav ul a{
+
+    text-decoration: none;
+    color:black;
+
+}
+
+nav ul li {
+   
+}
+
+header {
+
+    margin-bottom: 40px;
+}
+
+footer{
+    margin-top: 30px;
+
+}
+
+/* logo mirai du footer */
+
+footer .mirai{
+
+    margin-bottom:80px;
+    margin-left:339px;
+}
+
+
+/* écriture du footer */
+footer small {
+
+    margin-left: 246px;
+}
+
+
+}
+
+
+video {
+
+    margin-left:163px; 
+    padding-bottom:40px;
+}
+
+
+ul li a,.logos  li a, .logo2 div a  {
+
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+
+
+    transition: opacity  0.3s ease-in-out; 
+}
+
+a:hover   {
+    opacity : 0.4; 
+}
+
+/* classes */ 
+
+
+.container { 
+    display: grid;
+    grid-template-columns: 400px 317px;
+    grid-gap: 250px;
+  
+
+}
+
+.liste{
+
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 10px;
+
+
+}
+
+
+.logos li {
+
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+
+
+.mirai{
+    border : 2px solid black; 
+    background-color:#f5f5f0;
+    text-align: center;
+    width: 80px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing: 2px;
+    margin-top: -3px;
+
+    
+
+
+    
+
+}
+
+.green-model img{
+
+    height:350px;
+    width:auto;
+}
+
+.curating{
+
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    width: 35px;
+    height: 175px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+.curating p {
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    position:relative;
+    width:200px;
+    text-transform: uppercase;
+    font-weight:900;
+    letter-spacing: 6px;
+    
+
+}
+
+
+.tableau {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 265px auto;
+    grid-gap: 10px;
+}
+
+.right-side{
+
+display:grid;
+grid-gap: 12px;
+
+}
+
+.bottom-images{
+
+    display: grid;
+    grid-template-columns: 202px 200px;
+    grid-gap: 8px;
+}
+
+.image2 img {
+
+    height: auto;
+    width: 200px;
+
+}
+.image2 p{
+    right: 279px;
+    color:white;
+    text-transform:uppercase;
+    position:absolute;
+    font-weight:700;
+}
+.image2 p:nth-child(1){
+    bottom: 201px;
+
+}
+
+.image2 p:nth-child(2){
+    bottom: 175px;
+   
+}
+
+.image1 img {
+
+    height:200px;
+    width:200px;
+}
+
+.image1 p{
+    left: 341px;
+    color:white;
+    text-transform:uppercase;
+    position:absolute;
+    font-weight: 700;
+}
+
+.image1 p:nth-child(1){
+    bottom:127px;
+
+}
+
+.image1 p:nth-child(2){
+    bottom: 108px;
+   
+}
+
+.ligne{
+    border: 1px solid;
+    width: 724px;
+}
+
+.rectangle {
+
+    height: 200px;
+    width: 686px;
+    background-color: #517b51; 
+    margin-left: 40px;
+
+
+}
+
+.get-on-list{
+    color:white;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 33%;
+    padding-top: 5px;
+    font-size: 25px; 
+    margin-top: 29px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+
+}
+
+.barre2 {
+    margin-left: 139px;
+    
+    
+    
+}
+
+.barre2 input{
+    width: 192px;
+    height: 40px;
+}
+
+.barre {
+    display:grid;
+    grid-template-columns: 343px 343px;
+    grid-gap:0px;
+}
+
+.barre3 input {
+    width: 192px;
+    height: 45px;
+}
+
+input[type=button] {
+    text-transform:uppercase;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.passion{
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    width: 276px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.container-weAre {
+    display: grid;
+    grid-template-columns: 280px 340px;
+    grid-gap:10px;
+    margin-left: 41px;
+    padding-top: 27px;
+    margin-bottom: 20px;
+
+
+}
+
+.text {
+    font-size:9px;
+}
+
+.weAre{
+    border-bottom: 3px solid;
+    width: 67px;
+    height: 66px;
+    display:grid;
+    margin-left:2pc;
+
+}
+.line2 {
+    border-bottom: 3px solid;
+    width:33px;
+}
+
+
+
+
+.mini-galerie {
+    display:grid;
+    grid-template-columns: 237px 237px 240px;
+    margin-left: 3pc;
+    grid-gap:0px;
+}
+.mini-galerie {
+    display:grid;
+    grid-template-columns: 237px 237px 240px;
+    margin-left: 3pc;
+    grid-gap:0px;
+}
+
+.img1{
+    background-image: url(image/luke-porter-pUEqqlRbKq0-unsplash.jpg);
+    height:200px;
+    width:200px;
+    background-size: 200px 235px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.img2{
+    background-image: url(image/bruges-2586334_1920.jpg);
+    height:200px;
+    width:200px;
+    background-size: 200px 235px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img3{
+    background-image: url(image/claudel-rheault-ozvZSjUXBkU-unsplash.jpg);
+    height:200px;
+    width:200px;
+    background-repeat: no-repeat;
+    background-size: 200px 235px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.square {
+    margin-left: 22%;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(221, 221, 221);
+    margin-bottom:-42px;
+}
+
+
+.square div{
+    width:35px;
+
+   
+}
+
+.txt{
+    font-family: 'Noto Sans JP', sans-serif;
+    position:relative;
+    width:112px;
+    text-transform: uppercase;
+    font-weight:900;
+    letter-spacing: 3px;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    
+  
+    
+
+
+}
+
+.overline{
+    height: 2px;
+    width: 35px;
+    background-color: #000;
+   
+
+
+}
+
+
+.underline{
+    height: 2px;
+    width: 35px;
+    background-color: #000;
+    
+
+}
+
+.father{
+    margin-left:26px;
+    padding-top: 26px;
+}
+
+.texte5 p {
+
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+
+}
+.texte5 {
+    width: 207px;
+    margin-top:60px;
+}
+
+.insta-wu {
+
+    display:grid;
+    grid-template-columns: 110px 110px 110px 110px  110px;
+    margin-left:45px;
+    grid-gap:10px;
+    margin-bottom: 41px;
+
+}
+
+
+
+
+.item1{
+    background-image: url(image/bruges-2586334_1920.jpg);
+    height:100px;
+    width:100px;
+    background-size: 100px 100px;
+
+}
+
+
+.item2{
+    background-image: url(image/pot\ de\ fleur.jpg);
+    height:100px;
+    width:100px;
+    background-size: 100px 100px;
+    
+}
+
+
+
+.item3{
+
+    background-image: url(image/claudel-rheault-ozvZSjUXBkU-unsplash.jpg);
+    height:100px;
+    width:100px;
+    background-size: 100px 100px;
+}
+
+
+
+.item4{
+
+    background-image: url(image/luke-porter-pUEqqlRbKq0-unsplash.jpg);
+    height:100px;
+    width:100px;
+    background-size: 100px 100px;
+}
+
+
+.instawus{
+    font-family: 'Noto Sans JP', sans-serif;
+    width:112px;
+    text-transform: uppercase;
+    font-weight:900;
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin-left: 11px;
+    margin-top: 5px;
+
+}
+
+.overline1{
+    height: 2px;
+    width: 35px;
+    background-color: #000;
+    
+   
+
+
+}
+
+
+.underline1{
+    height: 2px;
+    width: 35px;
+    background-color: #000;
+    
+
+}
+
+.ligne{
+
+    margin-left: 23px;
+}
+
+
+
+
+.logo2 {
+
+    display : flex;
+    margin-left:350px;
+    margin-top: 10px;
+
+    
+}
